@@ -11,6 +11,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20140530051342) do
+
+  create_table "units", force: true do |t|
+    t.string   "letter"
+    t.integer  "size"
+    t.integer  "rooms"
+    t.float    "bathrooms"
+    t.boolean  "garage"
+    t.string   "overview"
+    t.string   "front"
+    t.string   "floor1"
+    t.string   "floor2"
+    t.string   "floor3"
+    t.string   "floorplan"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end

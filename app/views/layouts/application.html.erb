@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title><%= content_for?(:title) ? yield(:title) : "foundation-rails" %></title>
+    <title><%= content_for?(:title) ? yield(:title) : "SoHo-Nashville" %></title>
 
     <%= stylesheet_link_tag    "application" %>
     <%= javascript_include_tag "vendor/modernizr" %>
@@ -21,7 +21,7 @@
     <footer>
       <div id="footer">
         <div class="row">
-        </br>
+          </br>
           <div class="large-5 columns">
             <h6>For more information contact: </h6>
             <h3>Clay Kelton Realtor, CRS</h3>
@@ -31,7 +31,7 @@
           </div>
           <div class="large-6 columns">
             <div class="row"> 
-            <p>Homes recently built by Ewing Capital Group:</p>
+              <p>Homes recently built by Ewing Capital Group:</p>
               <div class="small-4 columns">
                 <%= image_tag("thumbs/500_southgate-exterior.jpg") %>                
               </div>
@@ -52,6 +52,7 @@
             </div>
           </div>
         </div>
+      </div>  
     </footer>
     <div id="bottom">
       </br>
@@ -59,4 +60,3 @@
     </div>
     <%= javascript_include_tag "application" %>
   </body>
-</html>

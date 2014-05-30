@@ -6,32 +6,32 @@ body {
   background:url("9_smaller.jpg");
   text-align:center;
   margin: 0;
-  margin-bottom: 25px;
   padding: 0;
   background-color: #000;
-  font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana";
   font-size: 13px;
   color: #333;
 }
 
 
 #map {
-    padding-left: 5em;
+    padding-left: 0em;
+    margin: auto;
 }
 
 
 #footer {
     min-height: 20em;
     a:link { color: #485553; }
-    a:hover {color: #ff0000; text-decoration: none; }
+    a:hover { color: #ff0000; text-decoration: none; }
     background: #7b7676;
     margin: none;
 }
 
 #bottom {
-	min-height: 5em;
+	min-height: 8em;
 	a:link { color: white; }
-    a:hover {color: #ff0000; text-decoration: none; }
+  a:hover { color: #ff0000; text-decoration: none; }
 	background-color: #485553;
-	margin: none;
+	margin: auto;
+  padding: 0;
 }

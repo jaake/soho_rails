@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  size: 1
+  rooms: 1
+  bathrooms: 1.5
+  garage: false
+  overview: MyString
+  front: MyString
+  floor1: MyString
+  floor2: MyString
+  floor3: MyString
+  floorplan: MyString
+
+two:
+  size: 1
+  rooms: 1
+  bathrooms: 1.5
+  garage: false
+  overview: MyString
+  front: MyString
+  floor1: MyString
+  floor2: MyString
+  floor3: MyString
+  floorplan: MyString
