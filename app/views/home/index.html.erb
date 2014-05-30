@@ -1,28 +1,60 @@
-<style type="text/css" media="screen">
-      body {
-	text-align:center;
-        margin: 0;
-        margin-bottom: 25px;
-        padding: 0;
-        background-color: #f0f0f0;
-        font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana";
-        font-size: 13px;
-        color: #333;
-      }
-
-      h1 {
-        font-size: 28px;
-        color: #000;
-      }
-
-</style>
-<h1 align="center">DigitalOcean Rails Application</h1>
-<img src="assets/rails.png" align="center"><br/>
-<p>This file is located in /home/rails/app/views/home/index.html.erb</p>
-
-Your application root is located in: <%= Rails.root.to_s %><br>
-
-Ruby version: <%= RUBY_VERSION %><br>
-
-Rails version: <%= Rails.version %><br>
+  <div id="meat">
+    </br>
+    <div class="row">
+      <div class="large-6 columns">
+        <div>
+          <div class="large-12 large-centered columns">
+            <div class="orbit-container">
+              <ul data-orbit data-options="pause_on_hover: false; animation: 'slide'; animation_speed: 1000; timer_speed: 5000; slide_number: false; navigation_arrows: false">
+                <li><%= link_to(image_tag("soho_bb.png"), "Home_A.html") %></li>
+                <li><%= link_to(image_tag("soho_bb.png"), "Home_B.html") %></li>
+                <li><%= link_to(image_tag("soho_cc.png"), "Home_C.html") %></li>
+                <li><%= link_to(image_tag("soho_dd.png"), "Home_D.html") %></li>
+                <li><%= link_to(image_tag("soho_ee.png"), "Home_E.html") %></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="large-6 columns">
+        <div>
+          </br>
+          <%= image_tag("soho_info.png") %>
+          </div>
+      </div>
+    </div>
+    </br>
+    <div class="row">
+      <div class="large-12 columns">
+        <ul class="button-group even-5 hide-for-small">
+          <%= image_tag("soho_front.png") %>
+          <li><a href="Home_E.html" class="small button">Home E</a></li>
+          <li><a href="Home_D.html" class="small button">Home D</a></li>
+          <li><a href="Home_C.html" class="small button">Home C</a></li>
+          <li><a href="Home_A.html" class="small button">Home A</a></li>
+          <li><a href="Home_B.html" class="small button">Home B</a></li>
+        </ul>
+        <ul class="button-group even-5 show-for-small">
+          <%= image_tag("soho_front.png") %>
+          <li><a href="Home_E.html" class="small button">E</a></li>
+          <li><a href="Home_D.html" class="small button">D</a></li>
+          <li><a href="Home_C.html" class="small button">C</a></li>
+          <li><a href="Home_A.html" class="small button">A</a></li>
+          <li><a href="Home_B.html" class="small button">B</a></li>
+        </ul>
+      </div>
+    </div>
+    </br>
+    <div class="row">
+      <div class="large-7 columns">
+        <%= link_to(image_tag("Home_overview.png"), "http://sohonashville.com/Home_A") %>
+      </div>
+      <div id="map" class="large-5 columns">
+        <div class="large-12 large-centered columns">        
+          <p><h5>These beautiful homes are located just off of Wedgewood Ave and are close to both downtown Nashville and local shopping centers.</p></h5>
+          <iframe class="hide-for-small" width="317" height="230" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=1700+A+Carvell+Ave&amp;ie=UTF8&amp;hq=&amp;hnear=1700+Carvell+Ave,+Nashville,+Tennessee+37203&amp;ll=36.135221,-86.767094&amp;spn=0.00519,0.010096&amp;t=h&amp;z=14&amp;output=embed"></iframe><br /><small class="hide-for-small"><a href="https://maps.google.com/maps?q=1700+A+Carvell+Ave&amp;ie=UTF8&amp;hq=&amp;hnear=1700+Carvell+Ave,+Nashville,+Tennessee+37203&amp;ll=36.135221,-86.767094&amp;spn=0.00519,0.010096&amp;t=h&amp;z=14&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small> 
+          <iframe style="padding-left: 2em" class="show-for-small" width="290" height="190" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=1700+A+Carvell+Ave&amp;ie=UTF8&amp;hq=&amp;hnear=1700+Carvell+Ave,+Nashville,+Tennessee+37203&amp;ll=36.135221,-86.767094&amp;spn=0.00519,0.010096&amp;t=h&amp;z=14&amp;output=embed"></iframe><br /><small class="show-for-small"><a href="https://maps.google.com/maps?q=1700+A+Carvell+Ave&amp;ie=UTF8&amp;hq=&amp;hnear=1700+Carvell+Ave,+Nashville,+Tennessee+37203&amp;ll=36.135221,-86.767094&amp;spn=0.00519,0.010096&amp;t=h&amp;z=14&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small> 
+        </div>
+      </div>
+    </div>
 
