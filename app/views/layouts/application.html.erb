@@ -34,11 +34,9 @@
               <p>Homes recently built by Ewing Capital Group:</p>
               <div class="large-12 large-centered columns"> 
                 <ul class="clearing-thumbs clearing-feature" data-clearing>
-                  <li class="clearing-featured-img"><a href="500a Southgate Exterior.jpg"><img src="clearing-feature.png"></a></li>
-                  <li><a href="526 Hamilton Exterior.jpg"><img src="526_hamilton-exterior.jpg"></a></li>
-                  <li><a href="615 Hamilton Exterior.jpg"><img src="615_hamilton-exterior.jpg"></a></li>
-                  <% @photo_names.each do |photo| %>
-                  <li><a href="<%= photo %>"><img src="<%= photo %>"></a></li>
+                  <li class="clearing-featured-img"><a href="../500a Southgate Exterior.jpg"><img src="../clearing-feature.png"></a></li>
+                  <% photo_names.each do |photo| %>
+                  <li><a href="<%= "../" + photo %>"><img src="<%= "../" + photo %>"></a></li>
                   <% end %>
                 </ul>
               </div>

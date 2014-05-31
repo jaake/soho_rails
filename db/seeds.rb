@@ -11,7 +11,7 @@ Unit.create([{letter: 'C', size: '1902', rooms: '3', bathrooms: '2.5', garage: t
 Unit.create([{letter: 'D', size: '1902', rooms: '3', bathrooms: '2.5', garage: true, overview: 'Site_Overview-D.png', front: 'Home_D-front.png', floor1: 'Home_D-floorplan-1.png', floor2: 'Home_D-floorplan-2.png', floor3: 'Home_D-floorplan-3.png', floorplan: 'Home_D-floorplan.png'}])
 Unit.create([{letter: 'E', size: '1994', rooms: '3', bathrooms: '2.5', garage: false, overview: 'Site_Overview-E.png', front: 'Home_E-front.png', floor1: 'Home_E-floorplan-1.png', floor2: 'Home_E-floorplan-2.png', floor3: 'Home_E-floorplan.png', floorplan: 'Home_E-floorplan.png'}])
 
-names = Dir.entries('app/assets/images/')
+names = Dir.entries('public/')
 
 names.each do |name|
 	Photo.create name: name if /jpg/.match name

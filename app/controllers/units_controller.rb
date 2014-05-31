@@ -4,18 +4,13 @@ class UnitsController < ApplicationController
   end
 
   def show
-    
-    @photo_names = []	
-  	photos = Photo.all
-    photos.each do |photo|
-      @photo_names << photo.name 
-    end
-    
-    if params[:id] && params[:id] == /[0-9]/
+
+    if /[0-9]/.match params[:id] 
       @unit = Unit.find(params[:id])  
     else
-      redirect_to root_path
+      0
     end
+
   end
 
 end
