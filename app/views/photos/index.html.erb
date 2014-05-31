@@ -1,0 +1,17 @@
+
+
+<div class="row">
+  <div class="large-12 columns">
+      <% @photo_names.take(3) do |photo| %> 
+        <%= link_to(image_tag(photo), photo) %>
+      <% end %>
+    <div class="row"> 
+      <ul class="clearing-thumbs" data-clearing>
+      	<li><a href="500a Southgate Exterior.jpg"><img src="500_southgate-exterior.jpg"></a></li>
+        <li><a href="526 Hamilton Exterior.jpg"><img src="526_hamilton-exterior.jpg"></a></li>
+        <li><a href="615 Hamilton Exterior.jpg"><img src="615_hamilton-exterior.jpg"></a></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+</div>

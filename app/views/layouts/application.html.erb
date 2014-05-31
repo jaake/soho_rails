@@ -32,14 +32,15 @@
           <div class="large-6 columns">
             <div class="row"> 
               <p>Homes recently built by Ewing Capital Group:</p>
-              <div class="small-4 columns">
-                <%= image_tag("thumbs/500_southgate-exterior.jpg") %>                
-              </div>
-              <div class="small-4 columns">
-                <%= image_tag("thumbs/526_hamilton-exterior.jpg") %>
-              </div>
-              <div class="small-4 columns">
-                <%= image_tag("thumbs/615_hamilton-exterior.jpg") %>
+              <div class="large-12 large-centered columns"> 
+                <ul class="clearing-thumbs clearing-feature" data-clearing>
+                  <li class="clearing-featured-img"><a href="500a Southgate Exterior.jpg"><img src="clearing-feature.png"></a></li>
+                  <li><a href="526 Hamilton Exterior.jpg"><img src="526_hamilton-exterior.jpg"></a></li>
+                  <li><a href="615 Hamilton Exterior.jpg"><img src="615_hamilton-exterior.jpg"></a></li>
+                  <% @photo_names.each do |photo| %>
+                  <li><a href="<%= photo %>"><img src="<%= photo %>"></a></li>
+                  <% end %>
+                </ul>
               </div>
             </div>
           </div>
@@ -60,3 +61,4 @@
     </div>
     <%= javascript_include_tag "application" %>
   </body>
+</html>

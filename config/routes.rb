@@ -8,8 +8,7 @@ Myapp::Application.routes.draw do
 root to: 'home#index'
 
 resources :units
-
-
+resources :photos
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
