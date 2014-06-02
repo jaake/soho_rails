@@ -2,9 +2,11 @@
 
 <div class="row">
   <div class="large-12 columns">
-      <% @photo_names.take(3) do |photo| %> 
-        <%= link_to(image_tag(photo), photo) %>
-      <% end %>
+    <ul>
+    <% photo_names.each do |photo| %>
+      <li><%= link_to(image_tag(photo), photo) %></li>
+    <% end %>
+    </ul>
     <div class="row"> 
       <ul class="clearing-thumbs" data-clearing>
       	<li><a href="500a Southgate Exterior.jpg"><img src="500_southgate-exterior.jpg"></a></li>
