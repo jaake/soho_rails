@@ -27,5 +27,5 @@ Myapp::Application.configure do
   # number of complex assets.
   config.assets.debug = true
 
-  config.assets.prefix = "/dev-assets"
+  config.assets.prefix = "/assets"
 end
