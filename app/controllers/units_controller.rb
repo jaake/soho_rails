@@ -8,7 +8,7 @@ class UnitsController < ApplicationController
     if /[0-9]/.match params[:id] 
       @unit = Unit.find(params[:id])  
     else
-      0
+      0 
     end
 
   end
