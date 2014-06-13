@@ -4,12 +4,9 @@ class UnitsController < ApplicationController
   end
 
   def show
-
-    if /[0-9]/.match params[:id] 
-      @unit = Unit.find(params[:id])  
-    else
-      0 
-    end
+    
+    @header_image = "soho_logo-white.png"
+    @unit = Unit.find(params[:id]) if /[0-9]/.match params[:id]  
 
   end
 
