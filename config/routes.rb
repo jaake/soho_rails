@@ -5,7 +5,7 @@ Myapp::Application.routes.draw do
 
 
   # You can have the root of your site routed with "root"
-root to: 'home#index'
+root to: 'photos#index'
 
 resources :units
 resources :photos

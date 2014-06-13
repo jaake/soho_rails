@@ -12,11 +12,14 @@
 
   <body>
     <header>
-      <%= link_to(image_tag("soho_logo-white.png"), "/")%>
+      <%= link_to(image_tag(@header_image), "/")%>
     </header>
 
     <%= yield %>
 
+    <div class="row">
+      <h4><%= link_to("Click here to return to SoHo Commons", "/") %></h4>
+    </div>
     <footer>
       <div id="footer">
         <div class="row">
