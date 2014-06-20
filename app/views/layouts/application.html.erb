@@ -31,7 +31,20 @@
             <h6>Office: <%= link_to("615-371-2474", "tel:+16153712474") %></h6>
             <h6>Direct: <%= link_to("615-200-6263", "tel:+16152006263") %></h6>
           </div>
-          <div class="large-6 columns">
+          <div class="large-6 hide-for-small columns">
+            <div class="row"> 
+              <p>Homes recently built by Ewing Capital Group:</p>
+              <div class="large-12 large-centered columns"> 
+                <ul class="clearing-thumbs clearing-feature" data-clearing>
+                  <li class="clearing-featured-img"><a href="../1.jpg"><img src="../clearing-feature.png"></a></li>
+                  <% photo_names.each do |photo| %>
+                  <li><a href="<%= "../" + photo %>"><img src="<%= "../" + photo %>"></a></li>
+                  <% end %>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="small-6 small-centered show-for-small columns">
             <div class="row"> 
               <p>Homes recently built by Ewing Capital Group:</p>
               <div class="large-12 large-centered columns"> 
