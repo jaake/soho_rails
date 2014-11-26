@@ -2,10 +2,12 @@ Myapp::Application.routes.draw do
   get "home/index"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
-
+  get "commons" => 'commons#index', as: 'commons'
+  get "flats" => 'flats#index', as: 'flats'
 
   # You can have the root of your site routed with "root"
-root to: 'photos#index'
+root to: 'commons#index'
+
 
 resources :units
 resources :photos
