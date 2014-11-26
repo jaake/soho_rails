@@ -1,0 +1,60 @@
+  <div id="meat">
+    </br>
+    </br>
+    <div class="row" >
+      <div class="large-12 large-centered columns">
+        <%= image_tag("soho_front.png", class:"hide-for-small", style:"max-width: 953px; padding-left: 14px") %>
+        <ul class="button-group even-5 hide-for-small" style="padding-left: 1em">
+          <li><%= link_to("Home E", unit_path(5), class:"medium button")%></li>
+          <li><%= link_to("Home D", unit_path(4), class:"medium button")%></li>
+          <li><%= link_to("Home C", unit_path(3), class:"medium button")%></li>
+          <li><%= link_to("Home A", unit_path(1), class:"medium button")%></li>
+          <li><%= link_to("Home B", unit_path(2), class:"medium button")%></li>
+        </ul>
+        <%= image_tag("soho_front.png", class:"show-for-small") %>
+        <ul class="button-group even-5 show-for-small">
+          <li><%= link_to("E", unit_path(5), class:"small button")%></li>
+          <li><%= link_to("D", unit_path(4), class:"small button")%></li>
+          <li><%= link_to("C", unit_path(3), class:"small button")%></li>
+          <li><%= link_to("A", unit_path(1), class:"small button")%></li>
+          <li><%= link_to("B", unit_path(2), class:"small button")%></li>          
+        </ul>
+      </div>
+    </div>
+    </br>
+    <div class="row">
+      <div class="large-6 columns">
+        <div class="large-12 large-centered columns">
+          <div class="orbit-container">
+            <ul data-orbit data-options="pause_on_hover: false; animation: fade; animation_speed: 1000; timer_speed: 5000; slide_number: false; navigation_arrows: false">
+              <li><%= link_to(image_tag("soho_ab.png"), unit_path(1)) %></li>
+              <li><%= link_to(image_tag("soho_bb.png"), unit_path(2)) %></li>
+              <li><%= link_to(image_tag("soho_cc.png"), unit_path(3)) %></li>
+              <li><%= link_to(image_tag("soho_dd.png"), unit_path(4)) %></li>
+              <li><%= link_to(image_tag("soho_ee.png"), unit_path(5)) %></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="large-6 columns">
+        <div>
+          </br>
+          <%= image_tag("soho_info.png") %>
+        </div>
+      </div>
+    </div>
+    </br>
+    <div class="row">
+      <div class="large-7 columns">
+        <%= link_to(image_tag("Home_overview.png"), unit_path(1)) %>
+      </div>
+      <div class="large-5 columns">
+        <div class="large-12 large-centered columns">        
+          <p><h5>These beautiful homes are located just off of Wedgewood Ave and are close to both downtown Nashville and local shopping centers.</p></h5>
+          <iframe id="map" class="hide-for-small" width="317" height="230" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=1700+A+Carvell+Ave&amp;ie=UTF8&amp;hq=&amp;hnear=1700+Carvell+Ave,+Nashville,+Tennessee+37203&amp;ll=36.135221,-86.767094&amp;spn=0.00519,0.010096&amp;t=h&amp;z=14&amp;output=embed"></iframe><br /><small class="hide-for-small"><a href="https://maps.google.com/maps?q=1700+A+Carvell+Ave&amp;ie=UTF8&amp;hq=&amp;hnear=1700+Carvell+Ave,+Nashville,+Tennessee+37203&amp;ll=36.135221,-86.767094&amp;spn=0.00519,0.010096&amp;t=h&amp;z=14&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small> 
+          <iframe id="map" class="show-for-small" width="290" height="190" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=1700+A+Carvell+Ave&amp;ie=UTF8&amp;hq=&amp;hnear=1700+Carvell+Ave,+Nashville,+Tennessee+37203&amp;ll=36.135221,-86.767094&amp;spn=0.00519,0.010096&amp;t=h&amp;z=14&amp;output=embed"></iframe><br /><small class="show-for-small"><a href="https://maps.google.com/maps?q=1700+A+Carvell+Ave&amp;ie=UTF8&amp;hq=&amp;hnear=1700+Carvell+Ave,+Nashville,+Tennessee+37203&amp;ll=36.135221,-86.767094&amp;spn=0.00519,0.010096&amp;t=h&amp;z=14&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small> 
+        </div>
+      </div>
+    </div>
+  </div>
+
