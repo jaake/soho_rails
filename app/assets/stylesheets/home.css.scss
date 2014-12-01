@@ -12,6 +12,21 @@ body {
   color: #333;
 }
 
+header {
+  padding: 0 0 30px 0;
+}
+
+#banner {
+  width: 100%;
+}
+
+#content {
+  padding: 30px 0 0 0;
+}
+
+#plans {
+  position: relative;
+}
 
 #map {
     padding-left: 0em;
@@ -20,7 +35,6 @@ body {
 
 
 #footer {
-    min-height: 20em;
     a:link { color: #485553; }
     a:hover { color: #ff0000; text-decoration: none; }
     background: #7b7676;
